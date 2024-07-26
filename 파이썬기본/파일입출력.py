@@ -21,7 +21,7 @@
 #     print(line, end="")
 # score_file.close()
 # with 구문을 사용하면 구문이 종료 될 때 자동으로 파일을 닫음, 언어가 길어지면 close를 까먹을 수도 있기에
-with open("score.txt","r",encoding="utf-8") as score_file:
+with open("score.txt", "r", encoding="utf-8") as score_file:
     lines = score_file.readlines()
     for line in lines:
         print(line, end="")
